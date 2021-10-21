@@ -1,21 +1,33 @@
-----------------------LEVEL 1------------------------
+----------------------LEVEL1------------------------
 
 #pond {
   display: flex;
 justify-content: flex-end;
 }
 
------------------------LEVEL 2------------------------
+-----------------------LEVEL2------------------------
 
 #pond {
   display: flex;
 justify-content: center;
 }
 
------------------------LEVEL 3------------------------
+-----------------------LEVEL3------------------------
 #pond {
   display: flex;
 justify-content: space-around;
 }
 
-------------------------LEVEL 4-----------------------
+------------------------LEVEL4-----------------------
+
+/*Now the lilypads on the edges have drifted to the shore,
+increasing the space between them. Use justify-content.
+This time, the lilypads have equal spacing between them.*/
+
+
+#pond {
+  display: flex;
+justify-content: space-between;
+}
+
+--------------------LEVEL5------------------------------
