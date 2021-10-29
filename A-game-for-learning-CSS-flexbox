@@ -55,9 +55,17 @@ justify-content: center;
 align-items: center;
 }
 
----------------------LEVEL 7-----------------------------
+---------------------LEVEL 7--------------------------------------------------------------------------
+The frogs need to cross the pond again, this time for some lilypads with plenty of space around them.
+Using a combination of justify-content and align-items.
 
+#pond {
+  display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
 
+--------------------------------------------------------------------------------------------------------
 
 
 
